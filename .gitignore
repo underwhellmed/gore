@@ -1,0 +1,46 @@
+# Dependencies
+node_modules/
+.pnp
+.pnp.js
+
+# Bun
+bun.lockb
+!bun.lockb
+
+# Build output (not used with Bun, but kept just in case)
+dist/
+build/
+
+# Environment files
+.env
+.env.*
+!.env.example
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+bun-debug.log*
+
+# Editor / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+
+# Supabase local dev (if you ever run `supabase start` locally)
+supabase/.temp/
+supabase/.branches/
+supabase/.env
+
+# Coverage / testing (unused now, kept for future)
+coverage/
+.nyc_output/
+
+# Temp files
+tmp/
+temp/
+*.tsbuildinfo
